@@ -1,0 +1,41 @@
+.tierlist {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+.tierContent {
+    display: flex;
+}
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px;
+    background-color: lightslategray;
+    border-radius: 18px;
+    transition: all 0.1s;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+.deck:hover {
+    filter: drop-shadow(5px 5px 15px black)
+}
+
+.ink {
+    width: 13rem;
+    height: 13rem;
+}
+
+.inkLeft {
+    clip-path: inset(0px 50% 0px 0px);
+    position: absolute;
+}
+
+.inkRight {
+    clip-path: inset(0px 0px 0px 50%);
+    position: absolute;
+}

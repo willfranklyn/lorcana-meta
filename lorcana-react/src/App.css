@@ -1,38 +1,62 @@
-.App {
+/* ---  Typography  --- */
+
+/* @font-face {
+  font-family: 'Alegreya-Regular';
+  src: local('Alegreya-Regular'), url(./fonts/Alegreya-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya-Medium';
+  src: local('Alegreya-Medium'), url(./fonts/Alegreya-Medium.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'Amarante';
+  src: local('Amarante'), url(./fonts/Amarante-Regular.ttf) format('truetype');
+}
+
+h1 {
+  font-family: 'Amarante';
+  font-size: 56px;
+}
+
+h2 {
+  font-family: 'Amarante';
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Amarante';
+  font-size: 26px;
+}
+
+p {
+  font-family: 'Amarante';
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #D6AD60;
+  transition: all 0.1s ease;
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.app-main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 50px 80px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

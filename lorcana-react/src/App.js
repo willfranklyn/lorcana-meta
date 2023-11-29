@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+import Header from './components/Header.js';
+import TierList from './components/TierList.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Lorcana Meta</p>
-      </header>
+    <div className='app'>
+      <Header />
+      <div className='app-main'>
+        <div className='switcher'>
+          
+        </div>
+        <TierList />
+      </div>
     </div>
   );
 }

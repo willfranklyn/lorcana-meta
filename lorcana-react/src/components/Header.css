@@ -1,0 +1,22 @@
+.header {
+    background-color: lightslategray;
+    color: white;
+    height: 100px;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(2px 2px 10px black);
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    display: flex;
+    margin-left: 2rem;
+    justify-content: left;
+    align-items: center;
+}
